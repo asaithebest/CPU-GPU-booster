@@ -22,7 +22,12 @@ If you want to see the performance of your pc with memory and CPU just do
 YOU CAN'T SAY THAT'S IT'S YOURS ! 
 YOU NEED AUTORIZATION FROM ME OR DO A PULL REQUEST AND BE ACCEPTED TO HAVE THE RIGHT TO SAY THAT YOU HELPED TO MAKE IT !
 
-Workflow don't really do something in the project don't worry it work ! 
+( Workflow don't really do something in the project don't worry it work ! )
 
 CPU : The processor
 GPU : The graphics card
+
+This programm is free to use but if something happened I'm not the problem.
+You are on your own :
+
+- own risk
