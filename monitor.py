@@ -18,7 +18,7 @@ def monitor_system(interval=5):
             # Monitor GPU usage
             gpus = GPUtil.getGPUs()
             for gpu in gpus:
-                print(f"GPU {gpu.id}: {gpu.load*70}% usage, Memory Used: {gpu.memoryUsed}MB / {gpu.memoryTotal}MB")
+                print(f"GPU {gpu.id}: {gpu.load*100}% usage, Memory Used: {gpu.memoryUsed}MB / {gpu.memoryTotal}MB")
 
             # Monitor memory usage
             memory_info = psutil.virtual_memory()
