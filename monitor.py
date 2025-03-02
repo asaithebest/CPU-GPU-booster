@@ -11,14 +11,6 @@ def monitor_system(interval=5):
     print("Starting system monitoring...")
     try:
         while True:
-            # Monitor CPU temperature if available
-            temps = psutil.sensors_temperatures()
-            if 'coretemp' in temps:
-                cpu_temp = temps['coretemp'][0].current
-                print(f"CPU Temperature: {cpu_temp}°C")
-            else:
-                print("CPU temperature sensor not available.")
-
             # Monitor CPU usage
             cpu_usage = psutil.cpu_percent(interval=1)
             print(f"CPU Usage: {cpu_usage}%")
@@ -26,7 +18,7 @@ def monitor_system(interval=5):
             # Monitor GPU usage
             gpus = GPUtil.getGPUs()
             for gpu in gpus:
-                print(f"GPU {gpu.id}: {gpu.load*100}% usage, Memory Used: {gpu.memoryUsed}MB / {gpu.memoryTotal}MB")
+                print(f"GPU {gpu.id}: {gpu.load*70}% usage, Memory Used: {gpu.memoryUsed}MB / {gpu.memoryTotal}MB")
 
             # Monitor memory usage
             memory_info = psutil.virtual_memory()
