@@ -1,2 +1,3 @@
 psutil
 pyopencl
+GPUtil
