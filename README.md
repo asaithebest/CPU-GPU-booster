@@ -11,6 +11,7 @@ ITS IN SECONDS WHICH MEAN 600 SEC = 10 MIN
 if you want to see the usage of your cpu or gpu just run inside of the terminal
 
 **python cpubooster/stress_test.py --gpu --duration 60**
+
 **python cpubooster/stress_test.py --cpu --duration 60**
 
 
